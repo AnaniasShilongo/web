@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d9f147b91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/GoDesigns(white).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header-text">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="header-text" class="header-text">
+                <p class="sub-title">Graphic Designer</p>
+                <h1>Hi, I'm <span>Ananias Shilongo</span></h1>
+                <p class="description">
+                    At <span class="highlight">Go Designs</span>, creativity meets functionality. We're passionate about
+                    crafting innovative and unique designs that not only capture attention
+                    but also deliver results. Explore our portfolio to see how we
+                    transform ideas into visual experiences that resonate. Whether you're
+                    looking for bold, modern designs or timeless, classic aesthetics,
+                    we're here to bring your vision to life.
+                    
+                    Thank you for visiting, and we look forward to creating something
+                    extraordinary together!
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- --------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Pic2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I'm Ananias, a graphic designer currently studying Information Technology at the University of Namibia. I specialize in logo design, flyers, letterheads, branding, and more, utilizing tools like Adobe Creative Suite. My design style is clean and modern, inspired by minimalism and nature. Outside of design, I enjoy watching movies and TV shows. Feel free to browse my portfolio to see my work. If you'd like to collaborate or just say hello, don't hesitate to reach out!  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Adobe Photoshop</span><br>Experienced in creating visually compelling designs using Adobe Photoshop.</li>
+                            <li><span>Adobe Illustrator</span><br>Skilled in designing vector-based illustrations and logos with Adobe Illustrator. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Designing social-media posts for CyberSafe Namibia  </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Grade 12 (NSSC) Certificate</li>
+                            <li><span>2021 - Current</span><br>BSC in Information Technology (Honours)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-note-sticky"></i>
+                <h2>Posters/Flyers</h2>
+                <p>Transforming concepts into visually striking posters that captivate and engage your audience.
+                    From promotional events to informative displays, I design posters that make a lasting impression.</p>
+                   
+            </div>
+            <div>
+                <i class="fa-brands fa-drupal"></i>
+                <h2>Logos</h2>
+                <p>Creating distinctive and timeless logos that embody your brand's identity.
+                    My designs are tailored to reflect your vision, ensuring your logo is not just a symbol, but a statement.</p>
+                    
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-chevron-down"></i>
+                <h2>More</h2>
+                <ul>
+                    <li>Letterheads</li>
+                    <li>Branding</li>
+                    <li>Invitations</li>
+                    <li>Business Profiles</li>
+                    <li>Brochure Design</li>
+                    <li>Business Cards</li>
+                    <li>Banners and more...</li>
+                </ul>
+                 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/22.jpg" alt="">
+                <div class="layer">
+                    <h3>Discover My Logos</h3>
+                    <p>Explore a collection of my logo designs that reflect creativity and brand identity. 
+                        Each logo is crafted with attention to detail, ensuring it resonates with the target audience.</p>
+                        <a href="#logoGallery" class="open-gallery"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <p class="click-more">Click for more</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/11.jpg" alt="Poster Thumbnail">
+                <div class="layer">
+                    <h3>Discover My Poster Designs</h3>
+                    <p>Dive into my portfolio of carefully crafted posters, each designed to captivate and communicate effectively.
+                        Click here to explore the full collection and see how design meets creativity.</p>
+                    <a href="#posterGallery" class="open-gallery"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    <p class="click-more">Click for more</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/333.jpg" alt="">
+                <div class="layer">
+                    <h3>Discover More of My Work</h3>
+                    <p>Explore additional projects and creative endeavors that showcase my versatility and design expertise.
+                        Click here to see more of what I can do.</p>
+                        <a href="#moreGallery" class="open-gallery"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <p class="click-more">Click for more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+<!-- Modal for Poster Gallery -->
+<div id="posterGallery" class="gallery-modal">
+    <div class="gallery-content">
+        <a href="#" class="close">&times;</a>
+        <div class="gallery-item">
+            <img src="images/BookkK.jpg" alt="Poster 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/ChessT.jpg" alt="Poster 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Meekulu.jpg" alt="Poster 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Ad.jpg" alt="Poster 4">
+        </div>
+        <div class="gallery-item">
+            <img src="images/IP-Money-Poster.jpg" alt="Poster 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/LILI.jpg" alt="Poster 6">
+        </div>
+        <div class="gallery-item">
+            <img src="images/How-to-pay.jpg" alt="Poster 7">
+        </div>
+        <div class="gallery-item">
+            <img src="images/SaudiArabia.jpg" alt="Poster 8">
+        </div>
+        <div class="gallery-item">
+            <img src="images/SilpaFinal.jpg" alt="Poster 9">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Truck.jpg" alt="Poster 10">
+        </div>
+        <div class="gallery-item">
+            <img src="images/TshirtPoster-1.jpg" alt="Poster 11">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Poster-1.jpg" alt="Poster 12">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Mona.jpg" alt="Poster 13">
+        </div>
+        <div class="gallery-item">
+            <img src="images/Poster-2.jpg" alt="Poster 14">
+        </div>
+        <div class="gallery-item">
+            <img src="images/final.png" alt="Poster 15">
+        </div>
+        <!-- Add as many posters as you want -->
+    </div>
+</div>
+<!-- Modal for Logo Gallery -->
+<div id="logoGallery" class="gallery-modal">
+    <div class="gallery-content">
+        <a href="#" class="close">&times;</a>
+        <div class="gallery-item">
+            <img src="images2/Cinematic.jpg" alt="Logo 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/IP-LOGO.jpg" alt="Logo 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/Lili's-Decor.jpg" alt="Logo 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/SaudiLogo.jpg" alt="Logo 4">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/Logo.jpg" alt="Logo 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/CyberSafe-Namibia.jpg" alt="Logo 6">
+        </div>
+        <div class="gallery-item">
+            <img src="images2/Silpa.jpg" alt="Logo 7">
+        </div>
+        <!-- Add as many logos as you want -->
+    </div>
+</div>
+<!-- Modal for More Content Gallery -->
+<div id="moreGallery" class="gallery-modal">
+    <div class="gallery-content">
+        <a href="#" class="close">&times;</a>
+        <div class="gallery-item">
+            <img src="images3/movie1.jpg" alt="More Content 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images3/MoviePosterQ.jpg" alt="More Content 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images3/Akto-Invitation.jpg" alt="More Content 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images3/Invitation.jpg" alt="More Content 3">
+        </div>
+        <!-- Add as many pieces of content as you want -->
+    </div>
+</div>
+  <!-- --------contact---------- -->
+
+<div id="contact">
+    <div class="container">
+          <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  ananiass611@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>  +264 81 254 0307</p>
+
+                <div class="social-icons">
+                    <a href="https://instagram.com/godesigns.na?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://wa.me/qr/M3GVVV2SHDMII1"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+
+
+                <a href="images/My CV.pdf" class="btn btn2" download>Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+          </div>
+    </div>
+    <div class="copyright">
+        <p>GoDesigns <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyurm--bzqTA4MfHcJ6v0xhH1UGENXiPSy5cFdExqNUn02v1UDZdGBTu-ecZtC7q1x87w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg  = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
